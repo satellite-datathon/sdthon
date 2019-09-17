@@ -1,9 +1,12 @@
-# sdthon
-we collaborate our great models
+# Satellite Intelligence Datathon
+
+Satellite Intelligence Datathon run by Melbourne Data Science and sponsored by Growing Data and ANZ.
+
+http://www.datasciencemelbourne.com/datathon/
+
+https://medium.com/satellite-intelligence
 
 Project: Melbourne Datathon 2019, 14th Aug - 29 November. 
-
-Satellite Intelligence
 
 Delivery team: Jason Samaradiwakara, Rohit Kaul, Vijay, Eric Kimwatan, Brendan Houng
 
