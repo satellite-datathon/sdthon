@@ -1,2 +1,9 @@
-data/
-.gitkeep
+**.png
+**.json
+*~
+code/phase01-mask-generation
+code/phase02-mask-generation
+phase-02/
+Phase-2-2-Data.zip
+
+
