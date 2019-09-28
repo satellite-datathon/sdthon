@@ -1,9 +1,14 @@
-**.png
 **.json
+**.geojson
 *~
 code/phase01-mask-generation
 code/phase02-mask-generation
-phase-02/
-Phase-2-2-Data.zip
 
+code/1_raw/.ipynb_checkpoints/
+.ipynb_checkpoints/
 
+data/phase-02/
+
+phase-01/data/harvested/
+phase-01/data/sentinel-2a-tile-7680x-10240y/geometry/
+phase-01/data/sentinel-2a-tile-7680x-10240y/timeseries/
