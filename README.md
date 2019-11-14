@@ -12,4 +12,11 @@ Delivery team: Jason Samaradiwakara, Rohit Kaul, Vijay, Eric Kimwatan, Brendan H
 
 Date: 9 September 2019
 
-See notes.txt
+
+
+
+
+## harvested pixels and ndvi index for prosperpine (tile 1536, 1024)
+![harvest and nvdi](./tmp/IMG_0156.JPG)
+![harvest and nvdi](./tmp/IMG_0157.png)
+![harvest and nvdi](./tmp/IMG_0158.png)
