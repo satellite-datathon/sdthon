@@ -30,12 +30,15 @@ m['harvested'] = m['harvested'] * 100 / 10000
 #df = m
 #https://community.plot.ly/t/solved-scattermapbox-callback-to-update-link-not-working/20318
 
+fig2 = dict(data=[dict(type='bar', x=m['date'], y=m['harvested'])])
+
 
 marks={i: d[2:7] for i, d in enumerate(df['date'].unique())}
 print(marks)
 
 app.layout = html.Div([
-    dcc.Graph(id='graph-with-slider'),
+    html.Div([
+    dcc.Graph(id='graph-with-slider')], style={'width':'800px', 'height':'400px'}),
     html.Div([
     dcc.Slider(
         id='date-slider',
@@ -47,9 +50,14 @@ app.layout = html.Div([
         #vertical=True
     )
     ],
-    style={'width':800, 'margin':25}
-    )
+    style={'width':'800px', 'margin': 25}
+    ),
+    html.Div([
+       dcc.Graph(id='plot2', figure=fig2),
+    ], style= {'width': '800px'})
 ])
+    
+
 
 @app.callback(
     dash.dependencies.Output('graph-with-slider', 'figure'),
@@ -74,12 +82,12 @@ def update_figure(selected_date):
         'data': [map],
         'layout': go.Layout(title="plot",
                             mapbox_style="carto-positron",
-                            mapbox_zoom=8.5,
+                            mapbox_zoom=8,
                             mapbox_center = {"lat": -20.4168,
                                              "lon": 148.456},
                             margin={"r":0,"t":0,"l":0,"b":0},
-                            width=900,
-                            height=600
+                            width=800,
+                            height=400
         )
     }
 
