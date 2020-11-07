@@ -1,6 +1,7 @@
 **.json
 **.geojson
 *~
+**.pyc
 code/phase01-mask-generation
 code/phase02-mask-generation
 
